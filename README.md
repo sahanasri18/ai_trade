@@ -12,4 +12,15 @@
 -  Animated UI with trade logging, filtering, and dropdown options  
 -  Optional model saving and reloading
 
+ai_trading_agent/
+│
+├── agent.py              # DQN Agent
+├── data_utils.py         # Data preprocessing with indicators (EMA, RSI, MACD)
+├── environment.py        # Custom Trading Environment
+├── train.py              # Training script for the agent
+├── streamlit_app.py      # Frontend dashboard using Streamlit
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+
+
 
